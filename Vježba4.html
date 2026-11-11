@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="hr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tablice</title>
+</head>
+<body>
+       
+        <a href="https://skole.loomen.carnet.hr/pluginfile.php/2756722/mod_resource/content/1/vazno_o_tablicama.pdf" target="_blank" >Ako zeslis znati vise o tablicama</a>
+       
+        <h1 align="center">Jednostavna tablica</h1>
+
+        <table border="1" width="100%" cellpadding="10px">   <!--Bez bordera ne radi, cellpadding daje koliko piksela od rijeci do tablice-->
+
+              <th colspan="5">Dani u tjedenu</th>   <!--Callspand je za spojiti cijelu "crtu"-->
+
+            <tr align="right">
+                <td calspand="2">Ponedjeljak</td>
+                <!--<td>Utorak</td>                  da se ne spoje pon i utorak -->
+                <td rowspan="2">Srijeda</td>
+                <td>Četvrtak</td>
+                <td>Petak</td>
+            </tr>
+            <tr align="center">
+                <td>Ponedjeljak</td>
+                
+              
+                <td>Četvrtak</td>
+                <td>Petak</td>
+            </tr>
+
+
+
+  
+        </table>
+
+
+
+
+        <h1 align="center">Tablica 2</h1>
+
+        <br>
+        <br>
+
+        <table border="1" width="40%" cellpadding="8px" align="center">   <!--Bez bordera ne radi, cellpadding daje koliko piksela od rijeci do tablice-->
+
+            <th colspan="5">naslov tablice</th>   <!--Callspand je za spojiti cijelu "crtu"-->
+
+          
+          <tr>
+                <td>&nbsp;</td>     <!--none breaking space ako zelim prazan-->
+                <td>1. <br>
+                    Stupac
+                </td>
+                <td>2. <br>
+                    Stupac
+                </td>
+                <td>3. <br>
+                    Stupac
+                </td>
+                <td>4. <br>
+                    Stupac
+                </td>
+          </tr>
+          <tr>
+            <td>1.red</td>
+            <td bgcolor="orange" rowspan="3">&nbsp;</td>
+            <td bgcolor="green" rowspan="2">&nbsp;</td>
+            <td >&nbsp;</td>
+            <td bgcolor="red">&nbsp;</td>
+
+
+          </tr>
+          <tr>
+            <td>2.red</td>
+            <td bgcolor="yellow" colspan="2">&nbsp;</td>
+
+
+
+          </tr>
+          <tr>
+            <td>3.red</td>
+
+            <td bgcolor="purple" colspan="3">&nbsp;</td>
+
+               
+          </tr>
+                 
+          <caption align="center"> Ovo je opis tablice</caption>
+         
+             </table>
+             
+    
+</body>
+</html>
